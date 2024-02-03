@@ -1,0 +1,89 @@
+{
+  "spellcheck": false,
+  "spellcheckLanguages": [],
+  "encryptionPreset": {
+    "keyDerivation": {
+      "type": "sodium.crypto_pwhash",
+      "preset": "mode:moderate|algorithm:default"
+    },
+    "encryption": {
+      "type": "crypto",
+      "preset": "algorithm:aes-256-cbc"
+    }
+  },
+  "window": {
+    "bounds": {
+      "width": 1024,
+      "height": 768
+    },
+    "maximized": true
+  },
+  "fetching": {
+    "rateLimit": {
+      "intervalMs": 60000,
+      "maxInInterval": 300
+    },
+    "messagesStorePortionSize": 500
+  },
+  "timeouts": {
+    "webViewApiPing": 15000,
+    "webViewBlankDOMLoaded": 15000,
+    "domElementsResolving": 20000,
+    "defaultApiCall": 25000,
+    "databaseLoading": 300000,
+    "indexingBootstrap": 30000,
+    "clearSessionStorageData": 3000,
+    "attachmentLoadAverage": 120000,
+    "fullTextSearch": 30000
+  },
+  "updateCheck": {
+    "releasesUrl": "https://api.github.com/repos/vladimiry/ElectronMail/releases",
+    "proxyRules": "",
+    "proxyBypassRules": ""
+  },
+  "indexingBootstrapBufferSize": 1000,
+  "jsFlags": [
+    "--max-old-space-size=6144"
+  ],
+  "commandLineSwitches": [],
+  "localDbMailsListViewMode": "plain",
+  "zoomFactorDisabled": false,
+  "persistentSessionSavingInterval": 900000,
+  "dbSyncingIntervalTrigger": 300000,
+  "dbSyncingOnlineTriggerDelay": 3000,
+  "dbSyncingFiredTriggerDebounce": 5000,
+  "shouldRequestDbMetadataReset": "done",
+  "dbCompression2": {
+    "type": "zstd",
+    "level": 3,
+    "mailsPortionSize": {
+      "min": 700,
+      "max": 900
+    }
+  },
+  "dbMergeBytesFileSizeThreshold": 5242880,
+  "calendarNotification": false,
+  "checkUpdateAndNotify": true,
+  "customTrayIconColor": "",
+  "customTrayIconSize": false,
+  "customTrayIconSizeValue": 22,
+  "customUnreadBgColor": "",
+  "customUnreadTextColor": "",
+  "disableNotLoggedInTrayIndication": false,
+  "disableSpamNotifications": true,
+  "doNotRenderNotificationBadgeValue": false,
+  "enableHideControlsHotkey": false,
+  "findInPage": true,
+  "fullTextSearch": true,
+  "hideControls": false,
+  "hideOnClose": true,
+  "idleTimeLogOutSec": 0,
+  "layoutMode": "top",
+  "logLevel": "error",
+  "startHidden": true,
+  "themeSource": "system",
+  "unreadNotifications": true,
+  "zoomFactor": 1,
+  "suppressUpsellMessages": false,
+  "_rev": 2
+}

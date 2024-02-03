@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Eva's Yoga Schedule//EN
+BEGIN:VEVENT
+UID:20231001T080000@yoga1.example.com
+DTSTART:20231001T080000
+DTEND:20231001T090000
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Vinyasa Flow
+LOCATION:Serenity Yoga Studio, Room 3
+DESCRIPTION:A dynamic class focusing on linking movement and breath.
+END:VEVENT
+BEGIN:VEVENT
+UID:20231003T183000@yoga2.example.com
+DTSTART:20231003T183000
+DTEND:20231003T194500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Hatha Yoga
+LOCATION:Urban Retreat, Main Hall
+DESCRIPTION:A gentle introduction to the most basic yoga postures.
+END:VEVENT
+BEGIN:VEVENT
+UID:20231005T190000@yoga3.example.com
+DTSTART:20231005T190000
+DTEND:20231005T201500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Yin Yoga
+LOCATION:Serenity Yoga Studio, Room 2
+DESCRIPTION:A passive practice where poses are held for longer, working on deep tissues.
+END:VEVENT
+BEGIN:VEVENT
+UID:20231007T100000@yoga4.example.com
+DTSTART:20231007T100000
+DTEND:20231007T113000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Ashtanga Primary Series
+LOCATION:Urban Retreat, Rooftop
+DESCRIPTION:A rigorous style of yoga that follows a specific sequence of postures.
+END:VEVENT
+BEGIN:VEVENT
+UID:20231008T090000@yoga5.example.com
+DTSTART:20231008T090000
+DTEND:20231008T101500
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:Restorative Yoga
+LOCATION:Serenity Yoga Studio, Room 1
+DESCRIPTION:Using props to allow you to hold poses longer, giving you all the benefits of deep passive stretching.
+END:VEVENT
+END:VCALENDAR

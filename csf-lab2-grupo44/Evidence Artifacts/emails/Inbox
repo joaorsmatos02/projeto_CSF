@@ -1,0 +1,286 @@
+From - Sat Sep 30 12:06:31 2023
+X-Account-Key: account3
+X-UIDL: GmailId18ae5c4a93fef983
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: cesarsilvaferro0@gmail.com
+Received: by 2002:ab0:23c9:0:b0:7ab:97df:3670 with SMTP id c9csp189193uan;
+        Sat, 30 Sep 2023 04:06:25 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IE9X3Y2TtazEAQ0FIJe8lCA+BB8JqkOxxN5Sh8SzOp+KwvQqdtmsC+/GJx0C6TMfTQ8Vrim
+X-Received: by 2002:a2e:7d0a:0:b0:2bc:e330:660b with SMTP id y10-20020a2e7d0a000000b002bce330660bmr6019169ljc.9.1696071985377;
+        Sat, 30 Sep 2023 04:06:25 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1696071985; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=f8MYrmua5o6Z44GkkU21Q6gVgYTpbuRmJLKD6EIC8UwSzuVNVaGDFI0FHuEpLw5iCg
+         EQkYJS/z/4c0U2cbBFcyNdsCAGDKH3lnGWisHsB1JK/bGGOIg6SOdBXx9y/jcFKQkYJZ
+         seurPEQf+1LqwbHjzjO/G7oY7RpuwoU/YJShlzOPswhsXWCpXAyBcdgM2rDy/pr+wugs
+         gzIZRhHRoJbAocgun900nt9nHjrU1zKzLYB/Ve1uW6MifZ39MqteEVUI+7XmJBxEq/xT
+         SPgcESGqe4ZwZcFOcA9Fq+/s+LMf1fLT9QS4+UalHcBIp+xnIfpdfJxyobSsYHvJ3Zw5
+         wwxg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:msip_labels:content-language:accept-language
+         :message-id:date:thread-index:thread-topic:subject:to:from
+         :dkim-signature;
+        bh=TXT3b5LR3PFMB/MDesKq32LP+mPatmDy82ICFNvrAi0=;
+        fh=7Xxe48Hyyh+osZjJIA5FghdAP3ir758LLFo1+fdLb8w=;
+        b=Mp2q0xbXMD65ve9jqA7nh9aVds3+YrIzBeYJNTKaK675c1Otj7Z+7CMdiGRgB1xqO1
+         KHEdjogNvgSLLrR5QvIVq0UirJDR4g/zL2XIgoCpFLarIqVNd+fCTiz8Gmd1mzt/ZWzn
+         EOCQVeC2LmWF7nqT4pysIVbbSJQc/F7SYhDJ9cSsKevT553eiC1fNv598Ub2oIo0fudg
+         dIc8/tB273jwQESOds/eVwPHDi6lnV8sUsaKSsmb/HtQFLkTMXlONYVOZxooBcv/WVHy
+         /nO1mrMRsd4AgYvosddQJQwV+9w5S5dBPp9mXn8IbnxWZGgSWp0wASOOET4jEpFGKgp6
+         vE2w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@outlook.com header.s=selector1 header.b=bfgtS1PG;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of shadyman217@outlook.com designates 2a01:111:f400:7e1a::811 as permitted sender) smtp.mailfrom=shadyman217@outlook.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=outlook.com
+Return-Path: <shadyman217@outlook.com>
+Received: from EUR05-DB8-obe.outbound.protection.outlook.com (mail-db8eur05olkn20811.outbound.protection.outlook.com. [2a01:111:f400:7e1a::811])
+        by mx.google.com with ESMTPS id q23-20020a2e9157000000b002c126375a55si10892105ljg.120.2023.09.30.04.06.25
+        for <cesarsilvaferro0@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 30 Sep 2023 04:06:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of shadyman217@outlook.com designates 2a01:111:f400:7e1a::811 as permitted sender) client-ip=2a01:111:f400:7e1a::811;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@outlook.com header.s=selector1 header.b=bfgtS1PG;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of shadyman217@outlook.com designates 2a01:111:f400:7e1a::811 as permitted sender) smtp.mailfrom=shadyman217@outlook.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=outlook.com
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=h5uViktKErmWm8U3Tkjd+Te+aalRIPkRrRS14rx4NDuLCOitFCJJyHZQvCwMek5NzapxtWhx4Jr/EpvKw475nIc4RlL+YqTmYvikigrKTKQIhXb/t7i9jvQ8gB2UaROnRbdAVjdtkPu93Vu2Xg8rvw0+ceVi2F/jQuITjuE6AUuj8j29mJeLgXw/8W69KfdbKJiESY+duQH6RZkJlyrW0x7guAcKtfyIIhqXxfBGOo3n2U36Di5SEeQVZVWfjZfT3DZxfvcc/rzXNPzUHDLc9cDYt2XtLilrerPFlYCWTcVK0aZyTSA2rvUrfl6wOq8tCYcv8BOJ74LHq5lSWJWFOQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=TXT3b5LR3PFMB/MDesKq32LP+mPatmDy82ICFNvrAi0=;
+ b=kHLrVA7PYnnHhjX3BJzRx9B+VRJkHpg64Wi7RXeOczSyS8DByT50muFSgKgzhFYR8eSJMAVT1+cMOjwhLC+G/kQmMNZUODw86jQAxK81Bsu/8kgCFL1PxfSAbOPmo3imQs4/ODHA0VXKM48SFpCfjoOSHKzTKIVeCkIz3Gg4Wh1mlyz6Y+EXij55SXgzivy5KqCQ/5xJXQakkXryMyx0938x+prGZAqNwPtgLomjckTOxz1rQK549e2hf/nQ+U+HwUSjHg7uxBJ4fwTvJNoLeX40MthC5gGs3xmE8GAgCsxlRjCkza7raoCdR0vK9r+rWzcCsClqsB44/fZsgop9wg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=TXT3b5LR3PFMB/MDesKq32LP+mPatmDy82ICFNvrAi0=;
+ b=bfgtS1PGi3sOf3FtEltsWtdlu6pgrILd92jzBaef99s6WcyF05JLKVi/kiENo+Spo58r6KYtOMPAZQ7Xehwc2zICNkhBY8GUSweHwIAQHiQMu3h1LeF/hHMmYmNyujHTVw+7AT12nR1C2Nz61EC6mJqMi+LhJON6oxeqceKpvI+wfICoqcqIq+UUvIvM9cuTC3jo3BVn62qENyd0Cl+T+F8kUlVm/xefOivzO/eGnKAce8Sdktf6nj6PvLEzk+Q2hFCgQ/aJ4zPmJ7jY5Z2KybFMRZ4mov4vn0aRVVaNjcpPhETqc9HPDvXKSkUh7JT6IQ/s8ZhWWM/JSrCkkrbAWg==
+Received: from VI1P193MB0621.EURP193.PROD.OUTLOOK.COM (2603:10a6:800:146::11)
+ by DU2P193MB2162.EURP193.PROD.OUTLOOK.COM (2603:10a6:10:2f8::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6838.28; Sat, 30 Sep
+ 2023 11:06:24 +0000
+Received: from VI1P193MB0621.EURP193.PROD.OUTLOOK.COM
+ ([fe80::e887:e8c:680c:b600]) by VI1P193MB0621.EURP193.PROD.OUTLOOK.COM
+ ([fe80::e887:e8c:680c:b600%4]) with mapi id 15.20.6838.024; Sat, 30 Sep 2023
+ 11:06:23 +0000
+From: Shady Friend <shadyman217@outlook.com>
+To: "cesarsilvaferro0@gmail.com" <cesarsilvaferro0@gmail.com>
+Subject: Spicy Intel
+Thread-Topic: Spicy Intel
+Thread-Index: AQHZ844dS9xHzXoUEEy1vqpmqml7hA==
+Date: Sat, 30 Sep 2023 11:06:23 +0000
+Message-ID:
+ <VI1P193MB0621B88B471BC997F4E803CEEDC7A@VI1P193MB0621.EURP193.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn: [iP3MIiV7bSPw2a2mjWbi/Ss9CwSLdTPoojiJDH6QNGpGLkvWQm2pLxApbhJooVJl]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: VI1P193MB0621:EE_|DU2P193MB2162:EE_
+x-ms-office365-filtering-correlation-id: 9317dcc0-2ecd-4903-549a-08dbc1a548df
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ JTRB4WG9RYNcUsHGFwl2GUpvbW5SEZyn2Qzh0Cb0lbFapRdr1hQnoCLZbyjwU2uLSuX4Dw/hD0fTK3m/UAJLm/gtmYEMaFLvtURNH/YxhMVUO3lrOcsw1wWHv2HUPjh+9JtrFnRk8Xw3pytoUwInNDPvEEk2QtKn7UbnPj7K/5IeMVfFnI0OWLaqD6b56QNgICu1hOCU6FanBhMOxsNvLbdtboVsUfsZefzDkLn8gPuJNJBs/sQOvmTNDP3neSF2t0oP00YToO9pY9ytn5bGzuE5O4/ytd0JrlON+fVcI7UDSu/SpR2lOMez4wFyki611VZj/zDCpWdLr1WgPYsRQtE1pPyCUm+MV75+lQiV7QhDcHQC+6hVzrnJcJK2n0ygHIGNcqL59OgvjpEUJFBNBRyWLlBc6dj+Asx6knnXTqHutMi87enJ51m2lmKLCVXurjU0Afz+MjXKWdofG5x8IkN8U+meYrkBnSrPxXtCbb3P8bBk+4Wz14vtqf4KWp2cM1t2HQd22xGZ4UHt7aJFSUUy2F0zGcvWF6aU7Ts8QO9k6xZED49qQdUIa2TvvRui
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?pTWtLh1SLH/xdwT5xcvvI2OuGbUMuddly2C4U6MIsgnZP+fDdzkOgo0YKJ?=
+ =?iso-8859-1?Q?MNEW+RIxsaZGUsb9qS9QYDm4BLqJa2EJZgk5QNX1Eb0DA7M2FrTfYvFnnM?=
+ =?iso-8859-1?Q?E9j1a1xaCNlRKJ7rxF3u2kaKEAKHF+eNqtrmeRhYdkD2WjSxQ3z4QRUhnD?=
+ =?iso-8859-1?Q?oeIu5qIls0UG/teHs1/h1HwOxI85dlpludbuT8FlN4NA/asioV/hwFLyU5?=
+ =?iso-8859-1?Q?DNI+880lkwySkkkIE0ngJOZuzFqkh1LsWVecZZBd0QHssdAIEBhacApMfe?=
+ =?iso-8859-1?Q?nwVxy8ro6ORDKjgFh0crLNbn5rWylYXXGDLT5hZJj5bK91NM4SKpGCW6nR?=
+ =?iso-8859-1?Q?H1q8xwYlhEK0sCW/stBzNPrcL1RR1g6ubhVtw6ORzjHgnDRINZT9AcD3yd?=
+ =?iso-8859-1?Q?8Hu4DL8YybmEaio5Q+6DTENMHh1/xlIsJyaKSf7RyiWVWKsQMma9gDEvDM?=
+ =?iso-8859-1?Q?TIEDJVDED4Bw+/JKsIvYREKLJY7Sx0nW9/oMCFDs14eCc5VMervwt1YnmN?=
+ =?iso-8859-1?Q?4lnhfwrlc8i6vN0T10wyLHrP3h271hwuhYGgfutn4+yXptbU3ZtBDmhfRx?=
+ =?iso-8859-1?Q?n4F6xf1ZVHdE7hThXlMgfFk4A90Yz3EnUnCnL1DrYM/gflQ0GbKyPzlOcK?=
+ =?iso-8859-1?Q?jz8K/6wGfwR/t8LSbiViCQLzvFuvEU3oX6YC1VXPi2RjnwBkI4sYL8UaMT?=
+ =?iso-8859-1?Q?+PhfjRHHnZEYnmkkVTLAqVpyN8bNXNBCUh966l+RqS2NlqHhoYOxCxqfPc?=
+ =?iso-8859-1?Q?ZhGxW+xas3SqW7VEdW3ElU+EnNRquhV3ktIYDViLygnxnR/nFtuFJ6oPbg?=
+ =?iso-8859-1?Q?xox8wdOxaQnnERBxJG7M6b3MBi1NivdD12DFt9vLbegkgrMRdZz1T52SnP?=
+ =?iso-8859-1?Q?fcvaZ16NFXKNWs1FtilVgKj1aCT7YUMacDpzQk2DfAWl4Iyzdf/Nu5SE0i?=
+ =?iso-8859-1?Q?XbHyXezZfK5EZLGlnTBK6iudiAgDJm8oaAf8v1tbiJvTF0RPV5joLA9Q3+?=
+ =?iso-8859-1?Q?pyX3+egvMdxEv4HnoLNmo5YV+8mP7StUGDuWluPeIK5ttbJ8bD+aLnEVBn?=
+ =?iso-8859-1?Q?BJyfzCeNYpNzhTArwvR2O1NK2MrVEE0M+17wCdNGQ74TYriyG/yZVDK7ci?=
+ =?iso-8859-1?Q?JsJj4AtaoCyP6ShbJFaI28+5he+63Jm9QcDAPWOU9GoCZ1Wg8P/dcFNS2F?=
+ =?iso-8859-1?Q?bpVPql/FUGTyS3ri3l2xBxPt+URKVO7mym985qv8GJUSrz6VymJFUvm+lr?=
+ =?iso-8859-1?Q?UpjYlvGS6P5Jit8FSTQMOhEsqH61Ux0EAah4BIY6WoaRLZA/6yHARqS7BN?=
+ =?iso-8859-1?Q?oGKejAd5nrLs2hNf1EQOWuclAw=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_VI1P193MB0621B88B471BC997F4E803CEEDC7AVI1P193MB0621EURP_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: VI1P193MB0621.EURP193.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9317dcc0-2ecd-4903-549a-08dbc1a548df
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Sep 2023 11:06:23.9124
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DU2P193MB2162
+
+--_000_VI1P193MB0621B88B471BC997F4E803CEEDC7AVI1P193MB0621EURP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Listen up,
+
+There's some serious dirt on Eva Rocha, and I've got the inside track. It's=
+ the kind of stuff that could set off fireworks.
+
+Word is you're the force behind that online petition targeting Eva, and I'v=
+e dug up some damning evidence that could send her on a wild ride. I think =
+you will find this interesting :)
+
+Eva Rocha was part of the team in charge of building the Arco do Cego.  But=
+ here's the twist: She allegedly took under-the-table payments to  keep a l=
+id on the construction of a super-secret tunnel. And what's that tunnel for=
+, you ask? Well, it's all about sneaking into the Casa da  Moeda to print s=
+ome sneaky cash on the side.
+
+Here's the lowdown: I've hidden a pendrive at:
+
+LockerLocky CTT IST Lisboa
+
+Address: Av. Rovisco Pais 1
+
+Postal code: 1000-267,
+
+in locker 06 with access code 155. Inside, you'll find all the ammunition t=
+o expose Eva. Grab it when the stars align, and let the games begin.
+
+Stay sharp,
+
+YourShadyFriend
+
+
+--_000_VI1P193MB0621B88B471BC997F4E803CEEDC7AVI1P193MB0621EURP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" clas=
+s=3D"elementToProof">
+<p class=3D"md-end-block md-p md-focus" style=3D"box-sizing: border-box; ma=
+rgin-top: 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-famil=
+y: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;=
+, sans-serif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain md-expand ContentPasted0" style=3D"box-sizing: bord=
+er-box; color: rgb(0, 0, 0);">Listen up,</span></p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain ContentPasted0" style=3D"box-sizing: border-box; co=
+lor: rgb(0, 0, 0);">There's some serious dirt on Eva Rocha, and I've got th=
+e inside track. It's the kind of stuff that could set off fireworks.</span>=
+</p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain ContentPasted0" style=3D"box-sizing: border-box; co=
+lor: rgb(0, 0, 0);">Word is you're the force behind that online petition ta=
+rgeting Eva, and I've dug up some damning evidence that could send her on a=
+ wild ride. I think you will find this
+ interesting :)</span></p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain ContentPasted0" style=3D"box-sizing: border-box; co=
+lor: rgb(0, 0, 0);">Eva Rocha was part of the team in charge of building th=
+e Arco do Cego. &nbsp;But here's the twist: She allegedly took under-the-ta=
+ble payments to &nbsp;keep a lid on the construction
+ of a super-secret tunnel. And what's that tunnel for, you ask? Well, it's =
+all about sneaking into the Casa da &nbsp;Moeda to print some sneaky cash o=
+n the side.</span></p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain ContentPasted0" style=3D"box-sizing: border-box; co=
+lor: rgb(0, 0, 0);">Here's the lowdown: I've hidden a pendrive at:</span><s=
+pan class=3D"md-softbreak" style=3D"box-sizing:border-box">
+</span><span class=3D"md-plain ContentPasted0" style=3D"box-sizing: border-=
+box; color: rgb(0, 0, 0);"><br>
+</span></p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain ContentPasted0" style=3D"box-sizing: border-box; co=
+lor: rgb(0, 0, 0);">LockerLocky CTT IST Lisboa</span><span class=3D"md-line=
+break ContentPasted0" style=3D"box-sizing: border-box; opacity: 0.6; color:=
+ rgb(0, 0, 0);">&nbsp;
+</span><span class=3D"md-linebreak ContentPasted0" style=3D"box-sizing:bord=
+er-box;opacity:0.6"><br>
+</span></p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-linebreak ContentPasted0" style=3D"box-sizing:border-box;=
+opacity:0.6"><span class=3D"md-linebreak-mark" style=3D"box-sizing:border-b=
+ox;opacity:0.6"></span></span><span class=3D"md-plain ContentPasted0" style=
+=3D"box-sizing: border-box; color: rgb(0, 0, 0);">Address:
+ Av. Rovisco Pais 1</span><span class=3D"md-linebreak ContentPasted0" style=
+=3D"box-sizing: border-box; opacity: 0.6; color: rgb(0, 0, 0);">&nbsp;
+</span><span class=3D"md-linebreak ContentPasted0" style=3D"box-sizing:bord=
+er-box;opacity:0.6"><br>
+</span></p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-linebreak ContentPasted0" style=3D"box-sizing:border-box;=
+opacity:0.6"><span class=3D"md-linebreak-mark" style=3D"box-sizing:border-b=
+ox;opacity:0.6"></span></span><span class=3D"md-plain ContentPasted0" style=
+=3D"box-sizing: border-box; color: rgb(0, 0, 0);">Postal
+ code: 1000-267, </span></p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain ContentPasted0" style=3D"box-sizing: border-box; co=
+lor: rgb(0, 0, 0);">in locker 06 with access code 155. Inside, you'll find =
+all the ammunition to expose Eva. Grab it when the stars align, and let the=
+ games begin.</span></p>
+<p class=3D"md-end-block md-p" style=3D"box-sizing: border-box; margin-top:=
+ 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-family: &quot;=
+Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;, sans-se=
+rif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain ContentPasted0" style=3D"box-sizing: border-box; co=
+lor: rgb(0, 0, 0);">Stay sharp,</span></p>
+<p class=3D"md-end-block md-p md-focus" style=3D"box-sizing: border-box; ma=
+rgin-top: 0px; margin-bottom: 1.5rem; overflow-wrap: break-word; font-famil=
+y: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Segoe UI Emoji&quot;=
+, sans-serif; color: rgb(184, 191, 198);">
+<span class=3D"md-plain md-expand ContentPasted0" style=3D"box-sizing: bord=
+er-box; color: rgb(0, 0, 0);">YourShadyFriend</span></p>
+<br>
+</div>
+</body>
+</html>
+
+--_000_VI1P193MB0621B88B471BC997F4E803CEEDC7AVI1P193MB0621EURP_--
+
